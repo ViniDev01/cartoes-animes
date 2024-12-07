@@ -4,7 +4,6 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    text-decoration: none;
     font-family: Poppins, sans-serif;
 }
 
@@ -117,61 +116,4 @@ body {
 
 .cart2 button {
     background-color: #2643c3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cart span {
-    z-index: 99;
-    position: absolute;
-    top: 60px;
-    right: 35px;
-    color: #fff;
-    font-size: 12px;
-    writing-mode: vertical-lr;
-    opacity: 0.7;
-    letter-spacing: 1px;
-    transition: 0.2s ease;
-}
-
-.container .cart:hover span {
-    opacity: 0;
-    right: 80px;
 }
